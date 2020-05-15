@@ -1,4 +1,11 @@
-export aa2int, int2aa, aa_alphabet
+export aa2int, int2aa, alphabet_aa
+
+"""
+    alphabet_aa()
+
+Returns the alphabet of amino-acid letters.
+"""
+alphabet_aa() = "ACDEFGHIKLMNPQRSTVWY-"
 
 """
     aa2int(char)
@@ -22,14 +29,7 @@ end
 
 Get the amino acid (in one letter code) corresponding to the integer `i`.
 """
-int2aa(i::Integer) = aa_alphabet()[i]
-
-"""
-    aa_alphabet()
-
-Returns the alphabet of amino-acid letters.
-"""
-aa_alphabet() = ('A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y', '-')
+int2aa(i::Integer) = alphabet_aa()[i]
 
 """
     aa2int(seq::String)
