@@ -1,7 +1,7 @@
 name = "BioSeqInt"
 uuid = "576b2be1-a97f-46b2-8c3d-3d276b5e41b2"
 authors = ["Jorge Fernandez-de-Cossio-Diaz <j.cossio.diaz@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
